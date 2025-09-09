@@ -1,6 +1,7 @@
 # Count no of days between two dates
 from datetime import datetime
 from typing import Optional
+from utils.date_parser import parse_date
 
 # Count Days
 def count_days(date1: datetime, use_today: bool, date2: Optional[datetime] = None) -> int:
@@ -8,14 +9,6 @@ def count_days(date1: datetime, use_today: bool, date2: Optional[datetime] = Non
     if date2 is None or use_today:
         date2 = datetime.today()
     return abs((date2 - date1).days)
-
-# Parse Date
-def parse_date(date_str: str) -> datetime:
-    """Parse a date string safely into a datetime object."""
-    try:
-        return datetime.strptime(date_str, "%Y-%m-%d")
-    except ValueError:
-        raise ValueError("Invalid date format. Please use YYYY-MM-DD.")
 
 # Main Execution
 if __name__ == "__main__":
