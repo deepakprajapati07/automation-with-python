@@ -9,3 +9,4 @@ Automation with Python (CLI App / Web App)
 ## Automation Programs
 - [1] [Days Counter](algorithms/days_counter.py) - Calculate days between two dates (Optionally use today's date)
 - [2] [Age Calculator](algorithms/age_calculator.py) - Calculate age in years, months and days from birthdate to today
+- [3] [BMI Calculator](algorithms/bmi_calculator.py) - Calculate Body Mass Index (BMI) from weight and height
