@@ -69,8 +69,7 @@ def compound_interest(principal: float, rate: float, time: int, n: int = 1):
     # After loop ends, CI and Total come from last iteration
     return ci, total, breakdown
 
-
-# Example usage
+# Main Execution
 if __name__ == "__main__":
     print("\nInterest Calculator with Yearly Breakdown\n")
     while True:
