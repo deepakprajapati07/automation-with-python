@@ -12,3 +12,4 @@ Automation with Python (CLI App / Web App)
 - [3] [BMI Calculator](algorithms/bmi_calculator.py) - Calculate Body Mass Index (BMI) from weight and height
 - [4] [Interest Calculator](algorithms/interest_calculator.py) - Calculate Simple and Compound Interest with yearly breakdown
 - [5] [EMI Calculator](algorithms/emi_calculator.py) - Calculate EMI and Amortization Schedule for Reducing Balance and Flat Rate loans. Also compare both types.
+- [6] [Bill Splitter](algorithms/bill_splitter.py) - Split a bill among friends based on individual contributions and expenses with minimal transactions and detailed summary report

@@ -13,3 +13,6 @@ env/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+# Ignore Test 
+tests/
