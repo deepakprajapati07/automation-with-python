@@ -14,5 +14,8 @@ env/
 .DS_Store
 Thumbs.db
 
+# Ignore venv
+venv/
+
 # Ignore Test 
 tests/

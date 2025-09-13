@@ -1,0 +1,6 @@
+python==3.11.9
+colorama==0.4.6
+python-dateutil==2.9.0.post0
+qrcode==8.2
+pillow==11.3.0
+six==1.17.0
