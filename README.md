@@ -15,3 +15,4 @@ Automation with Python (CLI App / Web App)
 - [6] [Bill Splitter](algorithms/bill_splitter.py) - Split a bill among friends based on individual contributions and expenses with minimal transactions and detailed summary report
 - [7] [QR Code Generator](algorithms/qr_code_generator.py) - Generate QR code from text or URL and save as image file
 - [8] [Barcode Generator](algorithms/barcode_generator.py) - Generate Barcode from text or URL and save as image file
+- [9] [Fuel Stops Planner](algorithms/fuel_stops_planner.py) - Plan fuel stops for a road trip based on vehicle's fuel efficiency, tank capacity, and route details. This will further be improved to include map integration and real-time data.
