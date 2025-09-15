@@ -322,3 +322,19 @@ def run_tests():
 
 if __name__ == "__main__":
     run_tests()
+
+
+"""
+    Summary:
+    This script implements a bill-splitting algorithm that calculates how much each participant owes or is owed based on shared expenses, tax, and tip.
+    Key features:
+    - Supports equal and custom splits of expenses.
+    - Handles multiple participants and expenses.
+    - Calculates net balances and suggests minimal transactions to settle debts.
+    - Includes rounding corrections to ensure total balances sum to zero.
+    Core flow:
+        Define participants and expenses → process expenses → adjust for tax/tip → compute balances → generate transactions → display summary.
+    Dependencies:
+    - dataclasses
+    - typing
+"""

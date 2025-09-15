@@ -76,4 +76,17 @@ if __name__ == "__main__":
     )
     print("QR Code generated and saved to:", qr_code["file_path"])
     if "base64" in qr_code:
-        print("Base64 Representation:", qr_code["base64"][:50] + "...")  # 
+        print("Base64 Representation:", qr_code["base64"][:50] + "...") 
+        
+"""
+    Summary
+    This script generates a QR code with customizable options including error correction level,
+    box size, border size, colors, and optional logo embedding.
+    Key features:
+    - Generates QR codes from input data.
+    - Supports different error correction levels (L, M, Q, H).
+    - Allows embedding a logo at the center of the QR code.
+    - Outputs the QR code as an image file, PIL image object, and/or base64 string.
+    Core flow:
+    Input parameters → validate → generate QR code → add logo (if any) → save and return results.
+"""

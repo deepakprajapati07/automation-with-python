@@ -248,3 +248,16 @@ if __name__ == "__main__":
 
         except ValueError:
             print("Invalid input. Please enter numeric values.\n")
+
+
+"""
+    Summary:
+    This script calculates the monthly EMI and generates an amortization schedule for both Reducing Balance and Flat Rate loans.
+    Key features:
+    - Supports different loan types with distinct interest calculation methods.
+    - Provides detailed month-wise breakdown of EMI, interest, principal, and remaining balance.
+    - Calculates total payment summaries, including interest saved with Reducing Balance loans.
+    - User-friendly input prompts and error handling for a smooth experience.
+    Core flow:
+        Input loan details → calculate EMI → generate amortization schedule → display results.
+"""

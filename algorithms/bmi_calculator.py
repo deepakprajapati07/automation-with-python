@@ -70,3 +70,14 @@ if __name__ == "__main__":
         except ValueError as e:
             print(e)
             print("Let's try again...\n")
+
+""" 
+    Summary:
+    This script calculates the Body Mass Index (BMI) based on user-provided weight and height.
+    Key features:
+    - Supports both metric (cm/kg) and imperial (feet/inches) units.
+    - Provides clear feedback on BMI category (e.g., normal, overweight).
+    - Handles invalid input gracefully with error messages.
+    Core flow:
+        Input weight and height → validate input → calculate BMI → determine category → display result.
+"""

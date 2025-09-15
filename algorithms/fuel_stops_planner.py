@@ -51,3 +51,21 @@ if __name__ == "__main__":
         fuel_price=100
     )
     print(trip_info)
+    
+"""
+    Summary:
+    This script calculates the fuel requirements and refueling stops for a long-distance trip.
+    Key features:
+    - Calculates total fuel needed and cost based on distance, mileage, tank capacity, and fuel price.
+    - Determines the number of refueling stops and their locations along the route.
+    Core flow:
+        Input parameters → validate → calculate fuel needs and stops → output results.
+    Dependencies:
+    - math
+    - typing
+     Core flow:   
+        Input parameters → validate → calculate fuel needs and stops → output results.
+    Dependencies:
+    - math
+    - typing
+"""

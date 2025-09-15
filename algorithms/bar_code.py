@@ -49,7 +49,6 @@ def generate_barcode(
 
 # Main Execution
 if __name__ == "__main__":
-    # Example usage
     result = generate_barcode(
         data="123456789012",
         barcode_type="code128",
@@ -63,3 +62,20 @@ if __name__ == "__main__":
         result["image_obj"].show()
     if "base64" in result:
         print("Base64 String:", result["base64"][:50] + "...")  # Print first 50 chars of base64 string
+
+"""
+    Summary:
+    This script generates a barcode from the given data and saves it as an image file.
+    It supports various barcode types and customization options for appearance.
+    Additionally, it can return the barcode as a PIL image object or a base64-encoded string.
+    Key features:
+    - Supports multiple barcode formats (e.g., Code128, EAN, etc.)
+    - Customizable appearance (size, colors, text)
+    - Option to return image as PIL object or base64 string for further use in applications.
+    Core flow:
+        Input data & options → generate barcode → save image → optionally return image/base64.
+    Dependencies:
+    - python-barcode
+    - Pillow
+    - io, base64
+"""

@@ -104,3 +104,16 @@ if __name__ == "__main__":
 
         except ValueError as e:
             print(f"Invalid input: {e}. Please try again.\n")
+
+"""
+Summary:
+This script calculates simple and compound interest with a yearly breakdown.
+Key features:
+- Calculates total interest and final amount for both simple and compound interest.
+- Provides a detailed year-wise breakdown of interest and total amount.
+Core flow:
+    Input parameters → validate → calculate interest → generate breakdown → display results.
+Dependencies:
+- math
+- typing
+"""

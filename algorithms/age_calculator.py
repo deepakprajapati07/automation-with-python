@@ -28,3 +28,18 @@ if __name__ == "__main__":
         except ValueError as e:
             print(e)
             print("Let's try again...\n")
+
+"""
+    Summary:
+    This script calculates the age based on the provided birthdate.
+    Key features:
+    - Calculates age in years, months, and days.
+    - Handles invalid date formats gracefully.
+    - Utilizes the dateutil library for accurate date calculations.
+    Core flow:
+        Input birthdate → parse date → calculate age → display result.
+    Dependencies:
+    - datetime
+    - dateutil.relativedelta
+    - utils.date_parser
+"""
